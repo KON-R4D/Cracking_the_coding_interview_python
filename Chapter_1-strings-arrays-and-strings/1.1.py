@@ -47,6 +47,8 @@ uses the lowercase letters a through z. This will allow us to use just a single 
 Link to a good explanation of the method seen in the book
 https://stackoverflow.com/questions/25847191/new-to-java-trying-to-understand-checker-1-val
 
+Link to python bitwise operators
+https://wiki.python.org/moin/BitwiseOperators
 '''
 
 
