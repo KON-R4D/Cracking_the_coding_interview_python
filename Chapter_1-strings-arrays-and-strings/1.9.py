@@ -14,8 +14,9 @@ def isSubstring(str1,str2):
 ####### OUR IMPLEMENTATION BEGINS HERE ##############
 
 def isRotation(str1,str2):
-    longStr1 = str1+str1
-    return isSubstring(longStr1,str2)
+    if len(str1)>0 and len(str1)==len(str2):
+        longStr1 = str1+str1
+        return isSubstring(longStr1,str2)
 
 
 ####### OUR IMPLEMENTATION ENDS HERE ##############
