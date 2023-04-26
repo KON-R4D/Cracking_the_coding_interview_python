@@ -76,20 +76,12 @@ def search(graph_,start_node,end_node):
                 
         
     return False
-    
-    
-    
+            
 
 ######### our implementation ends here ############
 
 
-
-
-
-
-
 # Driver code
-
 
 # Create a graph using the class Graph above
 g = Graph()
@@ -101,7 +93,6 @@ g.addEdge(1, 2)
 g.addEdge(2, 0)
 g.addEdge(2, 3)
 g.addEdge(3, 3)
-
 
 
 # check if a route exists

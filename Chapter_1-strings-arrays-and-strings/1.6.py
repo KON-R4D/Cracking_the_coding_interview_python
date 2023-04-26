@@ -31,8 +31,6 @@ def compress(string):
 ####### OUR IMPLEMENTATION 1 ENDS HERE ##############
 
 
-
-
 #Driver Code
 string = 'aabcccccaaa'
 compress(string)

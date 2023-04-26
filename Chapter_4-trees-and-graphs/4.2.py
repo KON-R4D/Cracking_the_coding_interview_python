@@ -48,8 +48,7 @@ def createMIN_BST_Helper(array,start,end):
     node.right = createMIN_BST_Helper(array,midpoint+1,end)
     return node
     
-    
-    
+        
     #print(len(array)//2)
 
     #node = Node(3)

@@ -51,8 +51,7 @@ def deleteDuplicateNodes(LinkedList):
         curr_node = curr_node.next
     #print(dictionary)
 
- ######### our implementation 2 ends here ###########        
-        
+ ######### our implementation 2 ends here ###########                
 
 
 # Driver code

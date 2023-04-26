@@ -41,7 +41,6 @@ def sum_lists_backwards(linkedlist1, linkedlist2):
     
     return int(string1)+int(string2)
 
-
 ######### our implementation ends here ########### 
         
 '''
@@ -84,7 +83,6 @@ def sum_lists_forwards(linkedlist1, linkedlist2):
     return int(string1)+int(string2)
 
     ######### our implementation ends here ########### 
-
 
 
 # Driver code 

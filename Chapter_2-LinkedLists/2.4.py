@@ -38,7 +38,6 @@ def partition_linked_list_aroud_pivot(LinkedList,x):
     tail.next = None 
     return head
 
-
 ######### our implementation ends here ########### 
 
 

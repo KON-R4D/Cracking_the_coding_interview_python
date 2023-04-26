@@ -4,7 +4,6 @@ Stack Min:
 How would you design a stack which, in addition to push and pop, has a function min which 
 returns the minimum element? Push, pop and min should all operate in 0(1) time.
 
-
 pop(): Remove top item from stack
 push(): Add item to top of stack
 peek(): Return the top of the stack
@@ -32,7 +31,6 @@ class Stack_withMin(Node):
             self.min = min(self.min,item)
             self.min_at_each_step.append(self.min)
         self.stack.append(item)
-            
         
         
     def pop(self):
@@ -58,7 +56,6 @@ class Stack_withMin(Node):
     
     
 ######### our implementation ends here ###########
-
 
 
 # Driver code

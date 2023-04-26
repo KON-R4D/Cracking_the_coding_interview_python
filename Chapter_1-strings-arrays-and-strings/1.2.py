@@ -44,9 +44,7 @@ def isPermutation2(string1,string2):
         chars[ord(string2[i])]-=1
         if chars[ord(string2[i])] < 0: # this will capture all cases since we already ruled out diff length strings
             return false
-    
-    
-
+        
 
 ####### OUR IMPLEMENTATION 2 ENDS HERE ##############
 
@@ -55,7 +53,6 @@ def isPermutation2(string1_,string2_):
     string1, string2 = sorted(string1_), sorted(string2_)
     return string1 == string2
 ####### OUR IMPLEMENTATION 2 ENDS HERE ##############
-
 
 
 # Driver Code

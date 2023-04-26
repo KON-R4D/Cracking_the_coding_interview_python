@@ -47,7 +47,6 @@ class MyStack_LinkedList(Node):
 ######### our implementation ends here ###########
 
 
-
 # Driver code
 
 stacker = MyStack_LinkedList()

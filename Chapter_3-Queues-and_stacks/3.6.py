@@ -96,8 +96,6 @@ class AnimalShelter2(AnimalNode2):
             self.queue_cat.append(new_animal)
         else:
             self.queue_dog.append(new_animal)
-            
-        
         
     
     def dequeueAny(self):
@@ -109,8 +107,7 @@ class AnimalShelter2(AnimalNode2):
             return self.dequeueDog()
         else:
             return self.dequeueCat()
-            
-        
+                    
     
     def dequeueDog(self):
         if len(self.queue_dog)==0:
@@ -122,8 +119,6 @@ class AnimalShelter2(AnimalNode2):
             return
         return self.queue_cat.popleft().name
 ######### our implementation ends here ###########
-
-
 
 
 # Driver code

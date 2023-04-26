@@ -11,7 +11,6 @@ If allowed to use inbuilt split function in python
 '''
 
 
-
 ####### OUR IMPLEMENTATION 1 BEGINS HERE ##############
 def URLify1(string):
     str_arr = string.split() # split the string by spaces
@@ -23,9 +22,6 @@ def URLify1(string):
     return url[:-3]
     
 ####### OUR IMPLEMENTATION 1 ENDS HERE ##############
-
-
-
 
 
 #Driver code

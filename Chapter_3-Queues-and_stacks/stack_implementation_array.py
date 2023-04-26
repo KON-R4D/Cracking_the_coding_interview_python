@@ -46,5 +46,6 @@ stack.peek()
 stack.push(2)
 stack.peek()
 stack.pop()
+
         
     

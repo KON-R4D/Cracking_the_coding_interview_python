@@ -57,9 +57,7 @@ SOLUTION 2
 def check_balanced_2(rootnode): 
     return (True if get_length_2(rootnode)!="ERROR_CODE" else False) #false if error code, true otherwise
 
-    
-    
-    
+        
 def get_length_2(node):
     
     if node is None:
@@ -91,7 +89,6 @@ lleft = left.left = Node(4)
 rleft = left.right = Node(5)
 lright = right.left = Node(6)
 rright = right.right = Node(7)
-
 
 # tree above is balanced 
 # uncomment code below to create unbalanced tree

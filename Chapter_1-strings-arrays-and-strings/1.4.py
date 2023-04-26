@@ -48,11 +48,9 @@ def checkMaxOneOdd(arr):
                 return False
             oddPresent = True
         return True
-                
-            
+                            
 
 ####### OUR IMPLEMENTATION 1 ENDS HERE ##############
-
 
 
 #Driver Code

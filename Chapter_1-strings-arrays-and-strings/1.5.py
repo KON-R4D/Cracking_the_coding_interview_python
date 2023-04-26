@@ -35,8 +35,7 @@ def isOneAway(str_1,str_2):
             oddCount+=1
             if oddCount>2:
                 return False
-    return True
-    
+    return True    
     
     
 ####### OUR IMPLEMENTATION 1 ENDS HERE ##############
